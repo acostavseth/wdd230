@@ -1,0 +1,25 @@
+
+/* Phone Views */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+}
+
+/* Tablet Views */
+
+@media only screen and (min-width: 37.5em) {
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Desktop Views */
+@media only screen and (min-width: 60em) {
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
