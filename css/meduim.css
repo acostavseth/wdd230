@@ -1,0 +1,9 @@
+@media (min-width: 32.5em) {
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: normal;
+    }
+
+
+    li { display: inline; }
+}
