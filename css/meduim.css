@@ -5,5 +5,15 @@
     }
 
 
-    li { display: inline; }
+
+    .lessons_list { 
+        padding: 1ch;
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        background-color: #2f4f69;
+        padding: 10px;
+        color: white;
+        column-gap: 50px;
+      }
 }

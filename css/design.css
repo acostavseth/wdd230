@@ -14,16 +14,18 @@ desc {
 h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: bolder;
+  text-align: center;
 }
 
-h2, a, li {
+h2, li {
   font-family: 'Raleway', sans-serif;
   font-weight: lighter;  
   font-size: larger;
+  text-align: center;
 }
 
-li { 
-  display: block; 
-  padding: 1ch;
+.lessons_list { 
+  display: inline; 
+  padding-bottom: 5ch;
   text-align: center;
 }
